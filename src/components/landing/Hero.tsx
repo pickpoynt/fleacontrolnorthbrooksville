@@ -14,15 +14,15 @@ interface HeroProps {
 const Hero = ({
   title = (
     <>
-      Sewer Line Replacement <br />
-      <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Chino Hills</span>
+      Flea Control <br />
+      <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">North Brooksville</span>
     </>
   ),
-  subtitle = "Chino Hills' rapid-response sewer restoration specialists. We provide professional trenchless repair and total sewer line replacement to protect your property from catastrophic backups — 24/7.",
-  image = "/2.jpeg",
-  overlayImage = "/4.jpeg",
-  phone = "8777921410",
-  badge = "CHINO HILLS SEWER LINE PROS",
+  subtitle = "North Brooksville's specialized flea eradication experts. We provide laboratory-grade treatments and total infestation removal to protect your pets and property — 24/7.",
+  image = "/4.jpeg",
+  overlayImage = "/1.jpeg",
+  phone = "3238801224",
+  badge = "NORTH BROOKSVILLE FLEA EXPERTS",
   features = [
     { icon: Search, text: "Sewer Diagnostic" },
     { icon: ShieldCheck, text: "Trenchless Repair" },

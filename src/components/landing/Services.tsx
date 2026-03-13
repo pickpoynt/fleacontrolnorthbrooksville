@@ -2,24 +2,16 @@ import { ArrowRight, Search, ShieldCheck, Hammer, FlaskConical, Target } from "l
 
 const services = [
   {
-    title: "Sewer Replacement",
-    description: "Full-scale restoration of failed sewer lines. We provide permanent structural replacements for Chino Hills homes using heavy-duty materials.",
-    icon: Target
+    title: "Household Flea Removal",
+    description: "Multi-stage interior treatments targeting flea larvae, eggs, and adults in carpets, upholstery, and hard-to-reach crevices.",
+    image: "/2.jpeg",
+    points: ["Safe for Pets", "Long-term Residuals", "Total Eradication"]
   },
   {
-    title: "Trenchless Repair",
-    description: "Advanced pipe lining technology that repairs sewer lines from the inside, saving your landscaping and driveway from destruction.",
-    icon: Search
-  },
-  {
-    title: "Pipe Bursting",
-    description: "Modern replacement method that pulls a new, durable pipe through the old one, effectively 'bursting' the old pipe in place.",
-    icon: Hammer
-  },
-  {
-    title: "Video Inspection",
-    description: "High-definition camera diagnostics to identify the exact cause and location of your sewer failure before work begins.",
-    icon: ShieldCheck
+    title: "Yard & Perimeter Shield",
+    description: "Protective outdoor boundaries that stop flea migration from neighboring properties and wildlife, creating a safe zone for your family.",
+    image: "/3.jpeg",
+    points: ["Turf Protection", "Perimeter Barriers", "Eco-Friendly Options"]
   }
 ];
 

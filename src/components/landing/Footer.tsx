@@ -11,19 +11,19 @@ const Footer = () => {
                 <ShieldCheck className="w-7 h-7 text-amber-500" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Chino Hills Sewer Line</span>
-                <span className="text-sm font-medium text-amber-500 uppercase tracking-widest text-[10px]">Replacement Professional</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">North Brooksville Flea</span>
+                <span className="text-sm font-medium text-amber-500 uppercase tracking-widest text-[10px]">Control Experts</span>
               </div>
             </div>
             <p className="text-slate-400 mb-8 leading-relaxed font-medium italic">
-              Chino Hills' rapid-response sewer restoration team. We provide safe, effective structural pipe replacement and professional trenchless repair throughout Chino Hills and the surrounding San Bernardino County area.
+              North Brooksville's rapid-response flea elimination team. We provide safe, effective flea treatments and professional pest protection throughout North Brooksville and the surrounding Hernando County area.
             </p>
           </div>
 
           <div>
             <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">Services</h4>
             <ul className="space-y-4">
-              {["Sewer Replacement", "Trenchless Repair", "Pipe Bursting", "Video Inspection", "Hydro Excavation"].map((item) => (
+              {["Interior Flea Removal", "Yard Treatment", "Pet-Safe Protocols", "Follow-Up Service", "Prevention Plans"].map((item) => (
                 <li key={item}>
                   <a href="#services" className="text-slate-400 hover:text-amber-500 transition-colors font-medium flex items-center gap-2 group">
                     <div className="w-1 h-1 rounded-full bg-amber-500/40 group-hover:w-2 transition-all" />
@@ -54,14 +54,14 @@ const Footer = () => {
               <div className="flex items-start gap-4">
                 <MapPin className="w-6 h-6 text-amber-500 shrink-0" />
                 <address className="text-slate-400 not-italic font-medium leading-relaxed">
-                  Chino Hills Sewer Line Experts<br />
-                  Chino Hills, CA 91709
+                  North Brooksville Flea Control Experts<br />
+                  North Brooksville, FL 34601
                 </address>
               </div>
               <div className="flex items-center gap-4">
                 <Phone className="w-6 h-6 text-amber-500 shrink-0" />
-                <a href="tel:8777921410" className="text-xl font-bold text-white hover:text-amber-500 transition-colors">
-                  (877) 792-1410
+                <a href="tel:3238801224" className="text-xl font-bold text-white hover:text-amber-500 transition-colors">
+                  (323) 880-1224
                 </a>
               </div>
             </div>
@@ -70,7 +70,7 @@ const Footer = () => {
 
         <div className="pt-12 border-t border-slate-800 text-center">
           <p className="text-slate-500 text-sm font-medium italic mb-4">
-            © {new Date().getFullYear()} Chino Hills Sewer Line Replacement Pros. All rights reserved. Professional Sewer Services Chino Hills, CA.
+            © {new Date().getFullYear()} North Brooksville Flea Control Experts. All rights reserved. Professional Flea Control North Brooksville, FL.
           </p>
           <div className="max-w-4xl mx-auto px-4 text-center">
             <p className="text-slate-400 text-sm mb-4 uppercase font-bold tracking-widest">

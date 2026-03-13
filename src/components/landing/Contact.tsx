@@ -8,13 +8,13 @@ const Contact = () => {
         <div>
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-100 text-amber-700 mb-6 font-bold uppercase tracking-wider text-sm shadow-sm">
             <Locate className="w-4 h-4" />
-            CHINO HILLS SEWER LINE EXPERTS
+            NORTH BROOKSVILLE FLEA CONTROL EXPERTS
           </div>
           <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 leading-tight uppercase tracking-tight">
-            Professional <span className="text-amber-600">Sewer Line Replacement Chino Hills</span>
+            Professional <span className="text-amber-600">Flea Control North Brooksville</span>
           </h2>
           <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-            Protect your Chino Hills property from catastrophic sewer failures and structural pipe collapses. Our localized team provides same-day video review, trenchless restoration, and full sewer line protection across Chino Hills, CA.
+            Protect your North Brooksville home and pets from dangerous flea infestations. Our licensed team provides same-day assessment, targeted IGR treatment, and full property flea elimination across North Brooksville, FL and surrounding areas.
           </p>
 
           <div className="space-y-8">
@@ -23,9 +23,9 @@ const Contact = () => {
                 <Phone className="w-7 h-7" />
               </div>
               <div>
-                <p className="text-sm font-bold text-amber-600 uppercase tracking-widest mb-1">SEWER LINE HOTLINE</p>
-                <a href="tel:8777921410" className="text-2xl font-bold text-slate-900 hover:text-amber-600 transition-colors uppercase tracking-tight">
-                  (877) 792-1410
+                <p className="text-sm font-bold text-amber-600 uppercase tracking-widest mb-1">FLEA CONTROL HOTLINE</p>
+                <a href="tel:3238801224" className="text-2xl font-bold text-slate-900 hover:text-amber-600 transition-colors uppercase tracking-tight">
+                  (323) 880-1224
                 </a>
               </div>
             </div>
@@ -36,7 +36,7 @@ const Contact = () => {
               </div>
               <div>
                 <p className="text-sm font-bold text-amber-600 uppercase tracking-widest mb-1">LOCAL CERTIFICATION</p>
-                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Licensed San Bernardino County Drain Specialists</p>
+                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Licensed Hernando County Pest Control Specialists</p>
               </div>
             </div>
 
@@ -46,9 +46,9 @@ const Contact = () => {
               </div>
               <div>
                 <p className="text-sm font-bold text-amber-600 uppercase tracking-widest mb-1">NAP</p>
-                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Chino Hills Sewer Line Experts</p>
-                <p className="text-slate-500 font-medium text-sm">Chino Hills, CA 91709</p>
-                <p className="text-slate-500 font-medium text-sm">(877) 792-1410</p>
+                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">North Brooksville Flea Control Experts</p>
+                <p className="text-slate-500 font-medium text-sm">North Brooksville, FL 34601</p>
+                <p className="text-slate-500 font-medium text-sm">(323) 880-1224</p>
               </div>
             </div>
 
@@ -66,7 +66,7 @@ const Contact = () => {
                   Want to replace this phone number with your own business line? We offer exclusive lead routing placement for only <strong>$19 a month</strong>.
                 </p>
                 <a
-                  href="mailto:leasemynumber@gmail.com?subject=Phone Replacement Inquiry - Chino Hills Clogged Drain"
+                  href="mailto:leasemynumber@gmail.com?subject=Phone Replacement Inquiry - Flea Control North Brooksville"
                   className="inline-flex items-center gap-2 bg-amber-600 hover:bg-amber-700 text-white px-6 py-3 rounded-xl font-bold uppercase tracking-widest text-xs transition-all hover:gap-3"
                 >
                   <Mail className="w-4 h-4" />
@@ -93,22 +93,22 @@ const Contact = () => {
             <div className="space-y-2">
               <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Service Needed</label>
               <select className="w-full bg-slate-50 border-slate-200 rounded-xl h-14 px-6 focus:ring-2 focus:ring-amber-500 transition-all outline-none font-medium">
-                <option>Sewer Line Replacement</option>
-                <option>Trenchless Pipe Repair</option>
-                <option>Video Sewer Inspection</option>
-                <option>Pipe Bursting Service</option>
-                <option>Structural Lining</option>
+                <option>Interior Flea Treatment</option>
+                <option>Yard & Perimeter Flea Spray</option>
+                <option>Flea Inspection</option>
+                <option>Follow-Up Treatment</option>
+                <option>Ongoing Flea Prevention</option>
               </select>
             </div>
             <div className="space-y-2">
               <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Service Details</label>
-              <textarea rows={4} className="w-full bg-slate-50 border-slate-200 rounded-xl p-6 focus:ring-2 focus:ring-amber-500 transition-all outline-none font-medium" placeholder="Describe your sewer failure or location..."></textarea>
+              <textarea rows={4} className="w-full bg-slate-50 border-slate-200 rounded-xl p-6 focus:ring-2 focus:ring-amber-500 transition-all outline-none font-medium" placeholder="Describe your flea problem (rooms affected, pet count, previous treatments)..."></textarea>
             </div>
             <Button className="w-full bg-amber-600 hover:bg-amber-700 text-white h-16 rounded-xl text-lg font-bold shadow-lg shadow-amber-900/20 uppercase tracking-widest transition-all">
               Request Service Review
             </Button>
             <p className="text-center text-slate-500 text-sm italic font-medium">
-              *Serving Chino Hills, Chino, Yorba Linda, and surrounding areas (91709, 91710, 91708, 92880, 92887).
+              *Serving North Brooksville, Spring Hill, Brooksville, and surrounding areas (34601, 34604, 34606, 34613, 34614).
             </p>
           </form>
         </div>

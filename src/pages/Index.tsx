@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import SewerLineInfo from "@/components/landing/SewerLineInfo";
+import FleaControlInfo from "@/components/landing/FleaControlInfo";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
 import RandomLinks from "@/components/landing/RandomLinks";
@@ -10,32 +10,32 @@ import FloatingCallButton from "@/components/ui/FloatingCallButton";
 import { Helmet } from "react-helmet-async";
 
 const Index = () => {
-  const firmName = "Chino Hills Sewer Line Experts";
-  const phoneNumber = "(877) 792-1410";
-  const location = "Chino Hills, CA";
-  const zipCodes = "91709, 91710, 91708, 92880, 92887";
-  const fullKeyword = "Sewer line replacement Chino Hills";
+  const firmName = "North Brooksville Flea Control Experts";
+  const phoneNumber = "(323) 880-1224";
+  const location = "North Brooksville, FL";
+  const zipCodes = "34601, 34604, 34606, 34613, 34614";
+  const fullKeyword = "Flea control north brooksville";
 
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": firmName,
-    "image": "/2.jpeg",
-    "@id": "https://sewerlinereplacementchinohills.vercel.app/",
-    "url": "https://sewerlinereplacementchinohills.vercel.app/",
-    "telephone": "8777921410",
+    "image": "/4.jpeg",
+    "@id": "https://fleacontrolnorthbrooksville.vercel.app/",
+    "url": "https://fleacontrolnorthbrooksville.vercel.app/",
+    "telephone": "3238801224",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Chino Hills",
-      "addressLocality": "Chino Hills",
-      "addressRegion": "CA",
-      "postalCode": "91709",
+      "streetAddress": "North Brooksville",
+      "addressLocality": "North Brooksville",
+      "addressRegion": "FL",
+      "postalCode": "34601",
       "addressCountry": "US"
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 33.9892,
-      "longitude": -117.7326
+      "latitude": 28.5700,
+      "longitude": -82.4002
     },
     "openingHoursSpecification": {
       "@type": "OpeningHoursSpecification",
@@ -54,23 +54,23 @@ const Index = () => {
       "name": firmName
     },
     "areaServed": [
-      { "@type": "City", "name": "Chino Hills, CA" },
-      { "@type": "PostalCode", "name": "91709" },
-      { "@type": "PostalCode", "name": "91710" },
-      { "@type": "PostalCode", "name": "91708" },
-      { "@type": "PostalCode", "name": "92880" },
-      { "@type": "PostalCode", "name": "92887" }
+      { "@type": "City", "name": "North Brooksville, FL" },
+      { "@type": "PostalCode", "name": "34601" },
+      { "@type": "PostalCode", "name": "34604" },
+      { "@type": "PostalCode", "name": "34606" },
+      { "@type": "PostalCode", "name": "34613" },
+      { "@type": "PostalCode", "name": "34614" }
     ],
-    "description": `Professional ${fullKeyword}. Emergency structural restoration and professional trenchless repair in Chino Hills ${zipCodes}.`
+    "description": `Professional ${fullKeyword}. Expert flea elimination and pet-safe treatments in North Brooksville FL ${zipCodes}.`
   };
 
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
         <title>{`${fullKeyword} | ${firmName} | ${phoneNumber}`}</title>
-        <meta name="description" content={`Expert ${fullKeyword}. We provide 24/7 emergency restoration and professional trenchless replacement in ${location} ${zipCodes}. Call ${phoneNumber} now.`} />
-        <meta name="keywords" content={`${fullKeyword}, trenchless sewer repair Chino Hills, pipe bursting 91709, sewer restoration 91710, local sewer experts Chino Hills CA`} />
-        <link rel="canonical" href="https://sewerlinereplacementchinohills.vercel.app/" />
+        <meta name="description" content={`Expert ${fullKeyword}. We provide 24/7 pest control, pet-safe flea treatments, and yard perimeter protection in ${location}. Call ${phoneNumber} now for rapid flea elimination.`} />
+        <meta name="keywords" content={`${fullKeyword}, flea exterminator North Brooksville, flea treatment Brooksville FL, pest control 34601, flea removal Hernando County`} />
+        <link rel="canonical" href="https://fleacontrolnorthbrooksville.vercel.app/" />
         <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
         <script type="application/ld+json">{JSON.stringify(serviceSchema)}</script>
       </Helmet>
@@ -80,19 +80,19 @@ const Index = () => {
         <Hero
           title={
             <>
-              {fullKeyword.replace(" Chino Hills", "")} <br />
-              <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Chino Hills</span>
+              Flea Control <br />
+              <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">North Brooksville</span>
             </>
           }
-          subtitle="Chino Hills' rapid-response sewer restoration specialists. We provide professional trenchless repair and total sewer line replacement to protect your property from catastrophic backups — 24/7."
-          image="/2.jpeg"
-          overlayImage="/4.jpeg"
-          badge="CHINO HILLS SEWER LINE PROS"
-          phone="8777921410"
+          subtitle="North Brooksville's specialized flea eradication experts. We provide laboratory-grade treatments and total infestation removal to protect your pets and property — 24/7."
+          image="/4.jpeg"
+          overlayImage="/1.jpeg"
+          badge="NORTH BROOKSVILLE FLEA EXPERTS"
+          phone="3238801224"
         />
         <Services />
         <WhyUs />
-        <SewerLineInfo />
+        <FleaControlInfo />
         <Contact />
       </main>
       <RandomLinks />
